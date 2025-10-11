@@ -1,3 +1,8 @@
+/*This script creates a new database 'DataWareHouse' after checking if it already exists. If the database exists, it is 
+dropped and recreated. Three schemas within the databse were setup i.e, bronze, silver, and gold. */
+
+
+
 --create database 'DatawareHouse'
 use master;
 go
@@ -26,6 +31,7 @@ go
 
 create schema gold;
 go
+
 
 
 
